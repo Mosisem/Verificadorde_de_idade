@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exec</title>
+</head>
+<body>
+    <Header>
+        Verificador de idade:
+    </Header>
+
+    <section>
+        <div>
+          <p>
+            Ano de nascimento:
+               <input type="number" id="txt_ano" class="input_ano" min="1900" max="2023"/>
+          </p>
+        </div>
+
+        <div id="res">
+            <p>
+               Sexo:
+               <input type="radio" name="form_s" id="sex_m"/>
+               <label for="sex_m" class="txt1">Masculino</label>
+
+               <input type="radio" name="form_s" id="sex_f"/>
+               <label for="sex_f" class="txt2">Feminino</label>
+            </p>
+
+            <p>
+               <input class="b_ton" type="button" id="button" value="Verificar" onclick="verificador()">
+            </p>
+        
+           
+        </div>
+        <div id="dados">
+
+        </div>
+
+        <div id="img">
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&COPY; Mosi sebastião da silva </p>
+    </footer>
+
+    <script src="back.js"></script>
+    
+</body>
+</html>
